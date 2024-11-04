@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Toko Sepatu Kartini</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Toko Sepatu Kartini</h1>
+        </div>
+        <ul class="menu">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">New Arrivals</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="content">
+        <h1>The Latest Collection for All Ages and Styles</h1>
+        <p>More Comfort in Every Step, More Variety in Every Style</p>
+        <button>Shop Now</button>
+    </section>
+
+    <h1 class="pheading">Our Latest Products</h1>
+    <section class="sec">
+        <div class="products">
+
+            <div class="card">
+                <div class="img"><img src="cptwanita.jpeg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Slip-on Shoes</div>
+                <div class="box">
+                    <div class="price">Rp80.000</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="cptwnt2.jpeg" alt=""></div>
+                <div class="desc">Women</div>
+                <div class="title">Sneakers</div>
+                <div class="box">
+                    <div class="price">Rp120.000</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="cptpria1.jpeg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Loafers</div>
+                <div class="box">
+                    <div class="price">Rp110.000</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="cptpria2.jpeg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Sneakers</div>
+                <div class="box">
+                    <div class="price">Rp380.000</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="cptank1.jpeg" alt=""></div>
+                <div class="desc">Kids</div>
+                <div class="title">Sneakers</div>
+                <div class="box">
+                    <div class="price">Rp78.000</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="cptank2.jpeg" alt=""></div>
+                <div class="desc">Kids</div>
+                <div class="title">Sneakers</div>
+                <div class="box">
+                    <div class="price">Rp84.000</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright at <a href="">Toko Sepatu Kartini</a></p>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $(".menu-btn").click(function () {
+                $(".navbar .menu").toggleClass("active");
+                $(".menu-btn i").toggleClass("active");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
